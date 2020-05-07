@@ -1,28 +1,24 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Haezl`,
+    title: `1 livro 3 parágrafos`,
     author: {
-      name: "gatsby starter haezl",
+      name: "1 livro 3 parágrafos",
       image: "/img/me.png",
-      biography: "A lightweight, mobile first blog starter with infinite scroll \
-        and Material-UI design elements for Gatsby.",
+      biography: "3 parágrafos para relembrar cada leitura que fiz",
     },
     // for a list of supported networks take a look at https://jaketrent.github.io/react-social-icons/
     networks: [
-      "https://twitter.com/iamhaezl",
-      "https://github.com/haezl/gatsby-starter-haezl",
-      "mailto:mail@haezl.at",
+      "https://twitter.com/willianwelbert",
+      "https://github.com/willianwelbert",
+      "mailto:willianwelbert@yahoo.com.br",
     ],
-    about: '<p>A lightweight, mobile first blog starter with infinite scroll \
-    and Material-UI design elements for \
-    <a href="https://github.com/gatsbyjs/gatsby" target="_blank">Gatsby</a>. </p> \
-    <p>For a quick start with this starter checkout the \
-    <a href="/posts/get-started/get-started/">Get Started</a> guide. For \
-    an overview of plugins used in this starter have a look at \
-    <a href="/posts/gatsby-plugins/gatsby-plugins/">Plugins</a>. \
-    To see a markdown blog entry in action click \
-    <a href="/posts/markdown/markdown-test/">here</a>. \
-    </p> \
+    about: '<p>Já esqueci completamente alguns livros que li, esse blog\
+    é um jeito de fazer ao menos três coisas:</p> \
+    <ol><li> Refletir sobre cada leitura ao terminá-la</li>\
+    <li> Praticar um pouco a escrita</li>\
+    <li> Ter uma cola para consultar sempre que pensar em um livro, \
+    sem lembrar do que ele se trata 😅</li>\
+    <p>Escrito (com pouca experiência) em Typescript usando Gatsby</p>\
     ',
   },
   plugins: [
